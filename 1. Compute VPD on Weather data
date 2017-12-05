@@ -1,21 +1,5 @@
-Skip to content
-Enterprise
-This repository
-Search
-Pull requests
-Issues
-Gist
- @bgoletam
- Sign out
- Watch 0
-  Star 0  Fork 0 bgoletam/Computing-Transpiration-Rate-Response-Curves-in-Response-to-atmospheric-Vapor-Pressure-Deficit
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
-Branch: master Find file Copy pathComputing-Transpiration-Rate-Response-Curves-in-Response-to-atmospheric-Vapor-Pressure-Deficit/1. Compute VPD
-55237e3  2 days ago
-@bgoletam bgoletam Rename Compute VPD to 1. Compute VPD
-1 contributor
-RawBlameHistory     
-30 lines (22 sloc)  1.13 KB
+
+
 #This part of script is to compute VPD from the weather data loggers. 
 #Make sure you use correct file encoding. In this case it is "iso-8859-1". Use terminal and use file -I <filename> to find out the encoding type.
 
