@@ -29,5 +29,4 @@ for (i in 1:length(filelist)) {
   write.table (filename1, file = filename2, sep=",", row.names = FALSE)
   
 }
-API Training Shop Blog About
-© 2017 GitHub, Inc. Help Support
+
