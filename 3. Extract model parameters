@@ -2,7 +2,7 @@
 #Extracting parameters from model fitting in prism generated files.
 
 rm(list = ls())
-setwd("/Users/bgtamang/UMN/LAB WORKS/RESEARCH DATA/4. BARLEY combined (Exp23 and Exp24)/R curated/Prism Result- Model Fitting/Least square method/")
+setwd()
 
 filelist <- list.files (pattern = ".csv")
 
@@ -33,7 +33,7 @@ for (i in 1:length(filelist)) {
     }
     
  result <- data.frame (filelist[i], Model, Y.intercept, Y.intercept.SE,Slope.1,Slope.1.SE,Slope.2,Slope.2.SE, R.square)
- write.table(result, file= "/Users/bgtamang/UMN/LAB WORKS/RESEARCH DATA/4. BARLEY combined (Exp23 and Exp24)/R curated/Prism Result- Model Fitting/Summary.Prism.LSM.csv", row.names=FALSE,col.names=c("Genotype", "Model", "Y intercept", "Y intercept SE", "Slope 1", "Slope 1 SE", "Slope 2", "Slope 2 SE", "R square"), sep=",", append = TRUE)
+ write.table(result, file= <path and file name>, row.names=FALSE,col.names=c("Genotype", "Model", "Y intercept", "Y intercept SE", "Slope 1", "Slope 1 SE", "Slope 2", "Slope 2 SE", "R square"), sep=",", append = TRUE)
  
   
 }
