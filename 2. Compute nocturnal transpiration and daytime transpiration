@@ -3,7 +3,7 @@
 require(lubridate)
 require (parsedate)
 rm(list=ls()) 
-setwd("/Users/bgtamang/UMN/LAB WORKS/RESEARCH DATA/4. BARLEY combined (Exp23 and Exp24)/R curated/")
+setwd()
 
 weight.metadata  <- read.csv ("Barley.metadata.csv", sep = ",", header = TRUE)
 weather.metadata <- read.csv ("BarleyVPD_metadata.csv", sep = ",", header = TRUE)
@@ -600,7 +600,7 @@ for (i in 1:length(unique(weight.metadata$Day))){
       
       
       Results<-data.frame(SN, Genotype, Replicate, Balance, Day, Leaf.area,Stage,Dry.weight,Specific.leaf.area,VPD, Transpiration, VPD.NTR, Mean.NTR, SE.NTR)
-      write.table(Results, file= "/Users/bgtamang/UMN/LAB WORKS/RESEARCH DATA/4. BARLEY combined (Exp23 and Exp24)/R curated/Result_BarleyNAM_TR_vs_VPD.csv", row.names=FALSE,col.names=FALSE, sep=",", append = TRUE)
+      write.table(Results, file= <path and filename>, row.names=FALSE,col.names=FALSE, sep=",", append = TRUE)
       
     }
     else if (file.exists(paste(k,".csv",sep=" "))==FALSE) 
