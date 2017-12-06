@@ -19,7 +19,7 @@ for (i in 1:length(filelist)) {
   
   filename <- read.table (paste(i, ".txt", sep = ""), sep = ",", header = TRUE, fileEncoding="iso-8859-1", skipNul = TRUE)
   filename1 <- filename[,1:4] #Excluding unnecessary columns and retaining only required ones.
-  names(filename1) <- c("S.No", "Date.Time", "Temperature", "RH") # Renaming th column names for ease.
+  names(filename1) <- c("S.No", "Date.Time", "Temperature", "RH") # Renaming the column names for ease.
   
   for (j in 1: length(filename1$Temperature)){
     filename1$VPD[j] <- get.vpd (filename1$RH[j],filename1$Temperature[j])
