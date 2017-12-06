@@ -1,0 +1,51 @@
+,TR.Rate
+Comparison of Fits,Can't calculate
+     Simpler model,Line
+     Probability it is correct,2
+     Alternative model,Segmental linear regression 
+     Probability it is correct,1
+     Ratio of probabilities,
+     Preferred model,Line
+     Difference in AICc,
+,
+Segmental linear regression ,Ambiguous
+Best-fit values,
+     intercept1,-6.453
+     slope1,24.57
+     X0,~ 24937938976
+     slope2,~ 22.49
+Std. Error,
+     intercept1,3.269
+     slope1,1.406
+     X0,~ 
+     slope2,~ 
+95% CI (profile likelihood),
+     intercept1,???
+     slope1,???
+     X0,(Very wide)
+     slope2,(Very wide)
+Goodness of Fit,
+     Degrees of Freedom,46
+     R square,0.8691
+     Absolute Sum of Squares,1203
+     Sy.x,5.113
+,
+Line,
+Best-fit values,
+     YIntercept,-6.453
+     Slope,24.57
+Std. Error,
+     YIntercept,3.2
+     Slope,1.377
+95% CI (profile likelihood),
+     YIntercept,-12.89 to -0.01805
+     Slope,21.81 to 27.34
+Goodness of Fit,
+     Degrees of Freedom,48
+     R square,0.8691
+     Absolute Sum of Squares,1203
+     Sy.x,5.006
+,
+Number of points,
+     # of X values,50
+     # Y values analyzed,50

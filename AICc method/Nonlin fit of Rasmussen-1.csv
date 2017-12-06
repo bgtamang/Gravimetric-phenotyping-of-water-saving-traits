@@ -1,0 +1,51 @@
+,TR.Rate
+"Comparison of Fits",
+"     Simpler model",Line
+"     Probability it is correct",93.47%
+"     Alternative model","Segmental linear regression "
+"     Probability it is correct",6.53%
+"     Ratio of probabilities",14.31
+"     Preferred model",Line
+"     Difference in AICc",-5.322
+,
+"Segmental linear regression ",
+"Best-fit values",
+"     intercept1",-8.875
+"     slope1",23.93
+"     X0",1.998
+"     slope2",25.34
+"Std. Error",
+"     intercept1",13.12
+"     slope1",7.819
+"     X0",2.878
+"     slope2",3.644
+"95% CI (profile likelihood)",
+"     intercept1","-infinity to -1.743"
+"     slope1","-infinity to 28.64"
+"     X0","??? to +infinity"
+"     slope2","21.07 to 34.32"
+"Goodness of Fit",
+"     Degrees of Freedom",28
+"     R square",0.8626
+"     Absolute Sum of Squares",772.1
+"     Sy.x",5.251
+,
+Line,
+"Best-fit values",
+"     YIntercept",-10.45
+"     Slope",24.85
+"Std. Error",
+"     YIntercept",4.171
+"     Slope",1.815
+"95% CI (profile likelihood)",
+"     YIntercept","-18.97 to -1.931"
+"     Slope","21.15 to 28.56"
+"Goodness of Fit",
+"     Degrees of Freedom",30
+"     R square",0.8621
+"     Absolute Sum of Squares",775.2
+"     Sy.x",5.083
+,
+"Number of points",
+"     # of X values",32
+"     # Y values analyzed",32
