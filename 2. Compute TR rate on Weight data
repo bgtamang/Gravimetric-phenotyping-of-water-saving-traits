@@ -5,8 +5,8 @@ require (parsedate)
 rm(list=ls()) 
 setwd()
 
-weight.metadata  <- read.csv ("Barley.metadata.csv", sep = ",", header = TRUE)
-weather.metadata <- read.csv ("BarleyVPD_metadata.csv", sep = ",", header = TRUE)
+weight.metadata  <- read.csv ("weight.metadata.csv", sep = ",", header = TRUE)
+weather.metadata <- read.csv ("weather.metadata.csv", sep = ",", header = TRUE)
 
 weight.metadata$Genotype <- as.character (weight.metadata$Genotype)
 
@@ -40,11 +40,11 @@ for (i in 1:length(unique(weight.metadata$Day))){
   weather.metadata_ss <- subset(weather.metadata, weather.metadata$Day == i)
   
   for (j in 1:length(unique(weight.metadata$Day))) {
-         if (weight.metadata_ss$Day [j] ==1) setwd("/Users/bgtamang/UMN/LAB WORKS/RESEARCH DATA/4. BARLEY combined (Exp23 and Exp24)/R curated/Exp23_Weight")
-    else if (weight.metadata_ss$Day [j] ==2) setwd("/Users/bgtamang/UMN/LAB WORKS/RESEARCH DATA/4. BARLEY combined (Exp23 and Exp24)/R curated/Exp23_Weight")
-    else if (weight.metadata_ss$Day [j] ==3) setwd("/Users/bgtamang/UMN/LAB WORKS/RESEARCH DATA/4. BARLEY combined (Exp23 and Exp24)/R curated/Exp23_Weight")
-    else if (weight.metadata_ss$Day [j] ==4) setwd("/Users/bgtamang/UMN/LAB WORKS/RESEARCH DATA/4. BARLEY combined (Exp23 and Exp24)/R curated/Exp24_Weight")
-    else if (weight.metadata_ss$Day [j] ==5) setwd("/Users/bgtamang/UMN/LAB WORKS/RESEARCH DATA/4. BARLEY combined (Exp23 and Exp24)/R curated/Exp24_Weight")
+         if (weight.metadata_ss$Day [j] ==1) setwd()
+    else if (weight.metadata_ss$Day [j] ==2) setwd()
+    else if (weight.metadata_ss$Day [j] ==3) setwd()
+    else if (weight.metadata_ss$Day [j] ==4) setwd()
+    else if (weight.metadata_ss$Day [j] ==5) setwd()
     
   }
   
