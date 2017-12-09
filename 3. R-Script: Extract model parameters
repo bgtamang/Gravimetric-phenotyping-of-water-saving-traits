@@ -1,5 +1,5 @@
 
-#Extracting parameters from model fitting in prism generated files.
+# Extracting parameters from model fitted in prism-generated files.
 
 rm(list = ls())
 setwd()
