@@ -9,7 +9,6 @@ filelist <- list.files (pattern = ".csv")
 for (i in 1:length(filelist)) {
   
   filename <-  read.csv (filelist[i], header = TRUE, sep = ",")
-  #dim(filename)
   filename$TR.Rate <- as.character (filename$TR.Rate)
     if ((filename$TR.Rate[4] > 0.05) == TRUE) {
       Model <- "Line"
