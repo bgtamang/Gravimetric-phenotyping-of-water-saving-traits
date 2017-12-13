@@ -13,8 +13,6 @@ library (ggpubr)
 my_data <- read.delim ("Combined families.txt", header = TRUE, sep = "\t") #This file contains nine variables
 dim(my_data)
 
-dplyr::sample_n(my_data,10) #Checking 10 rows
-
 #Assessing the normality
 # 1.First lets plot a density plot- to visually inspect if distribution is bell shaped or not.
 
