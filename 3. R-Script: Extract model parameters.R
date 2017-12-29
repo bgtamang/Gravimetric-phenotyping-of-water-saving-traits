@@ -1,6 +1,9 @@
 
 
-# Extracting parameters from model fitted in prism-generated files.
+# Extracting parameters from model fitted in prism-generated files. Transpiration rate to VPD raw data is first uploaded to PRISM and two models
+# are fitted (linear vs segmental). Then, the results are exported and following scripts are separately run on two types of files output to extract
+# model parameters such as Slope1, Slope2, Y-intercept, Breakpoint, p-value, probability, R-squared etc. Example of raw files are uploaded as folder
+# named AICc.
 
 
 # METHOD 1
