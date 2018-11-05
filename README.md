@@ -26,3 +26,5 @@ Following R- script files are uploaded to handle the datasets for calculation of
 1. To compute VPD values in each individual weather data files.
 2. To compute transpiration rates using weight data files.
 3. To extract parameters from the model employed (we are using AICc to select the best fitting model on our dataset).
+
+The first article that came out of this platform is Tamang and Sadok 2018, https://doi.org/10.1016/j.envexpbot.2017.11.016.
